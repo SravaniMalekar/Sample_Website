@@ -83,6 +83,7 @@
 html {
   background-color: #8fc3cf;
   line-height: 1.5;
+  width: 100%;
 }
 
 body {
@@ -123,6 +124,8 @@ header p {
   .container {
     padding-right: 20px;
     padding-left: 20px;
+    box-sizing: border-box;
+    margin-right: 30px;
   }
 }
 
@@ -187,6 +190,9 @@ header p {
 @media screen and (max-width: 480px) {
   .hide-small {
     display: none;
+  }
+  .sidebar{
+    margin-right: -40px;
   }
 }
 footer {
@@ -281,6 +287,7 @@ footer {
   margin-top: 20px;
   background-repeat: no-repeat;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .imagebunny p {
@@ -534,16 +541,21 @@ img {
   background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
   width: 100%;
-  padding: 0 20px;
+  padding: 20px 20px;
   bottom: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
 .slide-text p {
   text-indent: 0;
+  margin:0;
 }
 
+
+.slide-text h3 {
+  text-indent: 0;
+  margin:0;
+}
 @media screen and (max-width: 767px) {
   .slide-text {
     position: static;
@@ -602,7 +614,7 @@ img {
 
 .button {
   margin-left: 30px;
-  padding: 10px 20px;
+  padding: 5px 5px;
   border-radius: 5px;
   background-color: rgba(66, 110, 231, 0.336);
   color: #ffffff;
@@ -643,7 +655,7 @@ img {
   color: #54727a;
   text-transform: uppercase;
   border-radius: 5px;
-  width: 25%;
+  width: 200px;
   padding: 5px;
   box-sizing: border-box;
   margin-bottom: 20px;
