@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/layout2.css"> 
+        <link rel="stylesheet" href="CSS/lightbox.css"> 
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="js/cycle2.js"></script>
+        <script type="text/javascript" src="js/jquery.declarativeToggle.js"></script>
+        <script type="text/javascript" src="js/lightbox.js"></script>
+    </head>
+
+    <body>
+
+        
+            <header>
+
+                <div class="container">
+                    <h1>Website Title</h1>
+                    <p class="hide-small">Website slogan here.</p>
+    
+                    <span data-toggle-target=".nav-bar" class="toggle-btn">MENU</span> 
+
+                    <nav class="nav-bar">
+                        <ul class="group">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="Portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li class="hide-small"><a href="FAQ.html">FAQs</a></li>
+                            <li class="hide-small"><a href="links.html">Links</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </header>
+        
+            <div class="content-area group">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class= "col col-md-8">
+
+                            <div class= "main-area">
+
+                                <h2> Main Column Heading</h2>
+        
+                                
+                                    <div class="row boxes">
+                                        <div class="col col-sm-6 col-lg-3 ">
+
+                                            <div class="box-a">
+                                                <p>Key Point 1</p>
+                                            </div>
+                            
+                                        </div>
+        
+                                        <div class="col col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                <p>Key Point 2</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                <p>Key Point 3</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="col col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                <p>Key Point 4</p>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                <div>
+                                    <img src="images/star.jpg" class= "star" >
+                                </div>
+
+                                <div class= "row">
+                                    <div class= "col col-xs-6">
+                                        <img src="images/mbuntu-1.jpg">
+                                    </div>
+                            
+                                    <div class= "col col-xs-6">
+                                        <img src="images/mbuntu-2.jpg">
+                                    </div>
+                        
+            
+                                </div>
+        
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit laboriosam necessitatibus molestiae voluptatum porro perspiciatis, error pariatur eaque! Veniam voluptatibus ipsum molestias nemo ut dignissimos laudantium dolorum expedita aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur illum, cumque incidunt veritatis ullam quos eos. Nisi ullam velit in minima, atque ab cumque earum molestiae quidem molestias, placeat laudantium!</p>
+        
+                                <div class= "extrainfo hide-small" >
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas, fugit illum modi quis corporis ad autem earum adipisci doloribus qui, dignissimos sit animi iste provident nihil. Sequi, veniam. Itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus eius voluptatem. Dolorum maiores commodi explicabo. Voluptate nam repellat excepturi hic praesentium blanditiis quasi veritatis, aliquid possimus officia eum magnam!</p>
+                                </div>
+
+                                <span data-toggle-target=".full-text" data-toggle-text = "Hide the full text" class="toggle-btn read-more">Read the full text...</span>
+                                <div class="full-text">
+                                    <h2>Full Text</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit laboriosam necessitatibus molestiae voluptatum porro perspiciatis, error pariatur eaque! Veniam voluptatibus ipsum molestias nemo ut dignissimos laudantium dolorum expedita aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur illum, cumque incidunt veritatis ullam quos eos. Nisi ullam velit in minima, atque ab cumque earum molestiae quidem molestias, placeat laudantium!</p>
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi odit laboriosam necessitatibus molestiae voluptatum porro perspiciatis, error pariatur eaque! Veniam voluptatibus ipsum molestias nemo ut dignissimos laudantium dolorum expedita aut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur illum, cumque incidunt veritatis ullam quos eos. Nisi ullam velit in minima, atque ab cumque earum molestiae quidem molestias, placeat laudantium!</p>
+                                </div>
+
+                                <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+                                    <span class="cycle-prev">&laquo</span>
+                                    <span class="cycle-next">&raquo;</span>
+
+                                    <span class="cycle-pager"></span>
+
+                                    <div class="slide">
+                                        <img src="images/mbuntu-3.jpg">
+
+                                        <div class="slide-text">
+                                            <h3>Title</h3>
+                                            <p>this is the caption for this scenery 1<a href="#" class="button">Call to Action!</a></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide">
+                                        <img src="images/mbuntu-7.jpg">
+
+                                        <div class="slide-text">
+                                            <h3>Title</h3>
+                                            <p>this is the caption for this scenery 2</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide">
+                                        <img src="images/mbuntu-8.jpg">
+
+                                        <div class="slide-text">
+                                            <h3>Title</h3>
+                                            <p>this is the caption for this scenery 3</p>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+
+                                <div class="gallery-images group">
+                                    <h3>SAMPLE PHOTO GALLERY</h3>
+                                    <p>This is sample modal view for images</p>
+
+                                    <div class="image-rows">
+                                        <div class="image-box">
+                                        <a href="images/Road.jpg" data-lightbox="gallery"><img src="images/road-thumbail.jpg" alt="Road"></a>
+                                        </div>
+    
+                                        <div class="image-box">
+                                            <a href="images/Water.jpg" data-lightbox="gallery"><img src="images/Water-thumbnail.jpg" alt="Water"></a>
+                                        </div>
+                                        <div class="image-box">
+                                            <a href="images/flower.jpg" data-lightbox="gallery"><img src="images/flower-thumbnail.jpg" alt="flower"></a>
+                                        </div>
+                                        <div class="image-box">
+
+                                        <a href="images/Butterfly.jpg" data-lightbox="gallery" data-title="This is a butterfly"><img src="images/Butterfly-thumbnail.jpg" alt="Butterfly"></a>
+                                        </div>
+                                                                    
+                                    </div>
+
+                                    <div class="image-rows">
+                                        <div class="image-box">
+                                            <a href="images/lantern.jpg" data-lightbox="gallery"><img src="images/lantern-thumbnail.jpg" alt="lantern"></a>
+                                        </div>
+                                        <div class="image-box">
+                                            
+                                            <a href="images/flamingo.jpg" data-lightbox="gallery"><img src="images/flamingo-thumbnail.jpg" alt="flamingo"></a>
+                                        </div>
+                                        <div class="image-box">
+                                            <a href="images/steps.jpg" data-lightbox="gallery"><img src="images/steps-thumbnail.jpg" alt="Steps"></a>
+                                        </div>
+                                        <div class="image-box">
+                                            <a href="images/cracker-full.jpg" data-lightbox="gallery"><img src="images/cracker-thumbnail.jpg" alt="cracker"></a>
+                                        </div>
+                                    </div>
+    
+                                </div>
+        
+                                <div class="imagebunny">
+                                    <p>This is a bunny!</p>
+                                </div>
+                            </div>
+
+
+                    
+                        </div>
+
+                        <div class= "col col-md-4">
+                            <aside class="sidebar">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium. Dolor, odit voluptatibus aliquam et corrupti, modi optio dolorum similique cupiditate nemo blanditiis, sunt nobis? Soluta officia sunt unde libero! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga molestias minima laborum hic accusantium, distinctio eligendi. Necessitatibus, repellat repudiandae. Totam deleniti nesciunt numquam debitis omnis optio maiores aut ratione. Rerum?
+                                </p>
+                            </aside>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer>
+                <p>&copy;-2021 This is footer of website.</p>
+            </footer>
+        
+
+    </body>
+</html>
